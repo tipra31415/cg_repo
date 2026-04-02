@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestApplication {
 
 	public static void main(String[] args) {
+<<<<<<< Updated upstream
 		SpringApplication.run(TestApplication.class, args);
 
 		System.out.println("Arpit");
@@ -18,6 +19,13 @@ public class TestApplication {
 
 
 		System.out.println("making new changes");
+=======
+		SpringApplication.run(TestApplication.class,  args);
+
+		System.out.println("Arpit");
+		System.out.println("Aradhya");
+		System.out.println("Tyagi");
+>>>>>>> Stashed changes
 
 }
 }
